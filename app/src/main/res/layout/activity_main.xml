@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1a1a2e"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="👤 Oyuncu"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:padding="8dp"
+        android:background="#16213e"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔤 Word Crush"
+        android:textSize="42sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="60dp"/>
+
+    <Button
+        android:id="@+id/btnNewGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🎮 YENİ OYUN"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:backgroundTint="#e94560"
+        android:padding="20dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnScores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🏆 SKOR TABLOSU"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:backgroundTint="#0f3460"
+        android:padding="20dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnMarket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🛒 MARKET"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:backgroundTint="#533483"
+        android:padding="20dp"/>
+
+</LinearLayout>

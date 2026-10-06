@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1a1a2e">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🛒 Market"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tvGold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🪙 Altın: 0"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#f4d35e"
+            android:gravity="center"
+            android:background="#16213e"
+            android:padding="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- BALIK -->
+        <LinearLayout style="@style/JokerItemStyle">
+            <TextView style="@style/JokerTitle" android:text="🐟 Balık"/>
+            <TextView style="@style/JokerDesc" android:text="Rastgele 5 harfi yok eder"/>
+            <TextView android:id="@+id/tvFishCount" style="@style/JokerStock" android:text="Stok: 0"/>
+            <Button android:id="@+id/btnFish" style="@style/JokerBuyButton"/>
+        </LinearLayout>
+
+        <!-- TEKERLEK -->
+        <LinearLayout style="@style/JokerItemStyle">
+            <TextView style="@style/JokerTitle" android:text="🎯 Tekerlek"/>
+            <TextView style="@style/JokerDesc" android:text="Seçilen harfin satır+sütununu siler"/>
+            <TextView android:id="@+id/tvWheelCount" style="@style/JokerStock" android:text="Stok: 0"/>
+            <Button android:id="@+id/btnWheel" style="@style/JokerBuyButton"/>
+        </LinearLayout>
+
+        <!-- LOLIPOP -->
+        <LinearLayout style="@style/JokerItemStyle">
+            <TextView style="@style/JokerTitle" android:text="🍭 Lolipop Kırıcı"/>
+            <TextView style="@style/JokerDesc" android:text="Seçilen tek bir harfi siler"/>
+            <TextView android:id="@+id/tvLollipopCount" style="@style/JokerStock" android:text="Stok: 0"/>
+            <Button android:id="@+id/btnLollipop" style="@style/JokerBuyButton"/>
+        </LinearLayout>
+
+        <!-- SWAP -->
+        <LinearLayout style="@style/JokerItemStyle">
+            <TextView style="@style/JokerTitle" android:text="✋ Serbest Değiştirme"/>
+            <TextView style="@style/JokerDesc" android:text="Komşu iki harfin yerini değiştirir"/>
+            <TextView android:id="@+id/tvSwapCount" style="@style/JokerStock" android:text="Stok: 0"/>
+            <Button android:id="@+id/btnSwap" style="@style/JokerBuyButton"/>
+        </LinearLayout>
+
+        <!-- SHUFFLE -->
+        <LinearLayout style="@style/JokerItemStyle">
+            <TextView style="@style/JokerTitle" android:text="🎲 Harf Karıştırma"/>
+            <TextView style="@style/JokerDesc" android:text="Tüm gridi karıştırır"/>
+            <TextView android:id="@+id/tvShuffleCount" style="@style/JokerStock" android:text="Stok: 0"/>
+            <Button android:id="@+id/btnShuffle" style="@style/JokerBuyButton"/>
+        </LinearLayout>
+
+        <!-- PARTY -->
+        <LinearLayout style="@style/JokerItemStyle">
+            <TextView style="@style/JokerTitle" android:text="🎉 Parti Güçlendirici"/>
+            <TextView style="@style/JokerDesc" android:text="Tüm harfleri yeniden üretir"/>
+            <TextView android:id="@+id/tvPartyCount" style="@style/JokerStock" android:text="Stok: 0"/>
+            <Button android:id="@+id/btnParty" style="@style/JokerBuyButton"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

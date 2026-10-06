@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1a1a2e"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grid Boyutu Seçin"
+        android:textSize="28sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btn10x10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🟢 10x10 — KOLAY\n25 hamle"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:backgroundTint="#27ae60"
+        android:padding="24dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn8x8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🟡 8x8 — ORTA\n20 hamle"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:backgroundTint="#f39c12"
+        android:padding="24dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn6x6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔴 6x6 — ZOR\n15 hamle"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:backgroundTint="#e74c3c"
+        android:padding="24dp"/>
+
+</LinearLayout>
