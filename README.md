@@ -109,7 +109,7 @@ app/src/main/assets/kelimeler.txt   Türkçe kelime listesi
 
 ## 📄 Proje Raporu
 
-IEEE formatında hazırlanan proje raporu: [docs/WordCrush_Rapor.pdf](docs/WordCrush_Rapor.pdf)
+IEEE formatında hazırlanan proje raporu: [WordCrush_Rapor.pdf](WordCrush_Rapor.pdf)
 
 ---
 
